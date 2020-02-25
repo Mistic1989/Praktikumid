@@ -19,6 +19,5 @@ public class StaatilineSegadus {
         public int suusakepiPikkus() {
             return (int) Math.round(0.85 * pikkus * 100);
         }
-
     }
 }
