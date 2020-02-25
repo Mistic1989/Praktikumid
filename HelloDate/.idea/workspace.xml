@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57799102-c030-4d36-aebb-b3360d42c93e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WmwaKVAHU53yWc9pHkKp3WnnMu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-13.0.2/lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Procurator_Myyk005\IdeaProjects\HelloDate\src\Hello" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello.HelloDate" />
+      <module name="HelloDate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57799102-c030-4d36-aebb-b3360d42c93e" name="Default Changelist" comment="" />
+      <created>1579768139154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579768139154</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="233" key="#Project_Structure" timestamp="1579768150515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="233" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579768150515" />
+    <state x="722" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580999991351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580999991351" />
+    <state x="1205" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1580826023686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1205" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580826023686" />
+    <state x="1178" y="282" key="FileChooserDialogImpl" timestamp="1581001029998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1178" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581001029998" />
+    <state width="1150" height="222" key="GridCell.Tab.0.bottom" timestamp="1581520366053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1150" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581520366053" />
+    <state width="1150" height="222" key="GridCell.Tab.0.center" timestamp="1581520366053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1150" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581520366053" />
+    <state width="1150" height="222" key="GridCell.Tab.0.left" timestamp="1581520366053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1150" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581520366053" />
+    <state width="1150" height="222" key="GridCell.Tab.0.right" timestamp="1581520366053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1150" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581520366053" />
+    <state x="792" y="227" width="998" height="710" key="SettingsEditor" timestamp="1581001203901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="792" y="227" width="998" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581001203901" />
+    <state x="126" y="220" key="com.intellij.ide.util.TipDialog" timestamp="1580998370179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="126" y="220" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580998370179" />
+    <state x="653" y="169" key="new project wizard" timestamp="1581499777689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="169" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581499777689" />
+    <state x="649" y="363" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1579872648118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="363" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579872648118" />
+  </component>
+</project>
