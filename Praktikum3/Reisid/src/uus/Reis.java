@@ -40,7 +40,7 @@ public class Reis {
                 "Alles olev piletitearv: " + piletiteArv + "\n" +
                 "Lennuk: " + lennuk + "\n" +
                 "Reisi kestvus sihtpunktiga " + sihtpunkt + " on " + reisiKestvus() + " minutit" + "\n" +
-                "Vabu kohti reisil sihtpunktiga " + sihtpunkt + " on " + vabadKohad();
+                "Vabu kohti reisil sihtpunktiga " + sihtpunkt + " on " + vabadKohad() + "\n";
     }
     private String sihtpunkt;
     private int kaugus;
