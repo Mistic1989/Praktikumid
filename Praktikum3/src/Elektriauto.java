@@ -4,13 +4,12 @@ public class Elektriauto {
     private double elektriKulu;
     private int laadimisAeg;
     private int soiduUlatus;
-    //private Elektrijaam elektrijaam;
-    private double elektrihind;
-/*
+    private Elektrijaam elektrijaam;
+
     public Elektrijaam getElektrijaam() {
         return elektrijaam;
     }
-*/
+
     public int getLaadimisAeg() {
         return laadimisAeg;
     }
@@ -34,23 +33,24 @@ public class Elektriauto {
 
 
 */
-    public Elektriauto(String autoMark, double elektriKulu, int soiduUlatus, int laadimisAeg, double elektrihind) {
+    public Elektriauto(String autoMark, double elektriKulu, int soiduUlatus, int laadimisAeg, Elektrijaam elektrijaam) {
         this.autoMark = autoMark;
         this.elektriKulu = elektriKulu;
-        this.elektrihind = elektrihind;
         this.laadimisAeg = laadimisAeg;
         this.soiduUlatus = soiduUlatus;
-
+        this.elektrijaam = elektrijaam;
     }
 
     public double maksumus100() {
-        return elektrihind * this.elektriKulu;
+
+        return elektrijaam.getElektrihind() * this.elektriKulu;
     }
     public double maksumus(int teepikkusKm) {
+
         return (teepikkusKm * this.maksumus100()) / 100;
     }
     public double reisiKestus(int teepikkusKm, double keskmineKiirus) {
-        return ((teepikkusKm/this.soiduUlatus) * this.laadimisAeg + teepikkusKm/keskmineKiirus);
+        return (int)Math.round((teepikkusKm/this.soiduUlatus) * this.laadimisAeg/60 + teepikkusKm/keskmineKiirus);
     }
     public String toString() {
         return "Elektriauto: " +
@@ -58,8 +58,8 @@ public class Elektriauto {
                 ", elektrikulu = " + elektriKulu + "kWh/100km" +
                 ", sõiduulatus = " + soiduUlatus + " km" +
                 ", laadimisaeg = " + laadimisAeg + " min" +
-                ", elektrihind = " + elektrihind + " eur/kWh";
-
+                ", elektrihind = " + elektrijaam.getElektrihind() + " eur/kWh" +
+                ", sajakilomeetrilise reisi maksumus = " + maksumus100();
     }
 
 }
