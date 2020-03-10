@@ -22,17 +22,7 @@ public class Elektriauto {
         }
 
     }
-/*
-    public Elektrijaam getElektriHind() {
-        return elektriHind;
-    }
 
-    public void setElektriHind(Elektrijaam elektriHind) {
-        this.elektriHind = elektriHind;
-    }
-
-
-*/
     public Elektriauto(String autoMark, double elektriKulu, int soiduUlatus, int laadimisAeg, Elektrijaam elektrijaam) {
         this.autoMark = autoMark;
         this.elektriKulu = elektriKulu;
