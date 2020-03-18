@@ -9,9 +9,21 @@ public class Lühendaja {
         Scanner sc = new Scanner(fail, "UTF-8");
         while (sc.hasNextLine()) {
             String rida = sc.nextLine();
-            String[] tükid = rida.split(" ");
-            System.out.print(tükid[tükid.length-2]+" "+tükid[tükid.length-1]);
-            System.out.println();
+            if (rida.contains("-")) {
+                String[] tükid = rida.split(" ");
+                System.out.print(tükid[tükid.length-1] + " ");
+                String[] tükid2 = rida.split("-");
+                System.out.print(tükid2[0].charAt(0) + "-");
+                System.out.print(tükid2[1].charAt(0) + ". ");
+
+            } else {
+                    String[] tükid = rida.split(" ");
+                    System.out.print(tükid[tükid.length-1]+" ");
+                    for (int i = 0; i < tükid.length-1; i++) {
+                        System.out.print(tükid[i].charAt(0) + ". ");
+                }
+            }
+
         }
     }
 }
