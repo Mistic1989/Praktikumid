@@ -11,5 +11,5 @@ public class Testklass {
         Reis reis2 = new Reis("Miami", 8383, 70, teine);
         System.out.println(reis1);
         System.out.println(reis2);
-}
+    }
 }
