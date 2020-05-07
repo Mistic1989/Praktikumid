@@ -1,5 +1,6 @@
 import java.time.LocalDate;
-public class Õpilaspilet {
+public class Õpilaspilet implements Dokument {
+
     private int sünniaasta;
     public Õpilaspilet(int sünniaasta) {
         this.sünniaasta = sünniaasta;

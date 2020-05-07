@@ -1,11 +1,17 @@
 public class AmeerikaMäed {
-    public boolean vanusedSobivad(IdKaart[] idKaardid, Õpilaspilet[] õpilaspiletid) {
-        for (IdKaart id : idKaardid) {
-            if (!id.onVähemalt12Aastane())
-                return false;
+    int i = 0;
+    public int[] ebasobivadDokumendid(Dokument[] dokumendid) {
+        for (Dokument dokument : dokumendid) {
+            if (!dokument.onVähemalt12Aastane()) {
+
+            }
+
         }
-        for (Õpilaspilet pilet : õpilaspiletid) {
-            if (!pilet.onVähemalt12Aastane())
+    }
+
+    public boolean vanusedSobivad(Dokument[] dokumendid) {
+        for (Dokument dokument : dokumendid) {
+            if (!dokument.onVähemalt12Aastane())
                 return false;
         }
         return true;

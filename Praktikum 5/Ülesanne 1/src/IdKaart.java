@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-public class IdKaart {
+public class IdKaart implements Dokument {
     private String isikukood;
     public IdKaart(String isikukood) {
         this.isikukood = isikukood;
