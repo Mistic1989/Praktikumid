@@ -19,6 +19,6 @@ public class rename {
             }
         }
 
-        System.out.println("conversion is done");
+        System.out.println("Valmis!");
     }
 }
