@@ -1,9 +1,11 @@
 public class Idkaart {
     public String sugu() {
+        String mees = "Sugu: mees";
+        String naine = "Sugu: naine";
         if (isikukood[0] = 1 || isikukood[0] = 3 || isikukood[0] = 5) {
-            return "Sugu: mees";
+            return mees;
             if (isikukood[0] = 2 || isikukood[0] = 4 || isikukood[0] = 6) {
-                return "Sugu: naine";
+                return naine;
             };
         }
     }
