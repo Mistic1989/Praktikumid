@@ -37,7 +37,7 @@ public class SõnadeAnalüüs {
         String tulemus = sb.toString();
         System.out.println(tulemus);
 
-        File fail = new File("c:/coffee/marsruut.txt");
+        File fail = new java.io.File("c:/coffee/marsruut2.txt");
 
         if (fail.createNewFile())
             System.out.println("Fail loodud");
