@@ -1,7 +1,7 @@
 
 import java.time.LocalDate;
 
-public class Juhiluba implements Dokument {
+public class Juhiluba implements Dokument{
     private int lõpuaasta;
 
     @Override
