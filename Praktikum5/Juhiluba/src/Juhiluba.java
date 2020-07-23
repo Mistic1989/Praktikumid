@@ -1,3 +1,4 @@
+
 import java.time.LocalDate;
 
 public class Juhiluba implements Dokument {
