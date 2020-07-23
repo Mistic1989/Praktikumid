@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Test {
     public static void main(String[] args) {
        /*
@@ -11,9 +13,11 @@ public class Test {
         AmeerikaMäed ameerikaMäed = new AmeerikaMäed();
         Dokument[] dokumendid = {
                 new IdKaart("39108071234"),
-                new Õpilaspilet(1991)
+                new Õpilaspilet(2012),
+                new Juhiluba(2010)
         };
-        System.out.println("sobib: " + ameerikaMäed.vanusedSobivad(dokumendid));
 
+        System.out.println("sobib: " + ameerikaMäed.vanusedSobivad(dokumendid));
+        System.out.println(ameerikaMäed.ebasobivadDokumendid(dokumendid));
     }
 }

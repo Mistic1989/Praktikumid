@@ -3,6 +3,13 @@ import java.time.LocalDate;
 public class IdKaart implements Dokument {
     private String isikukood;
 
+    @Override
+    public String toString() {
+        return "IdKaart{" +
+                "isikukood='" + isikukood + '\'' +
+                '}';
+    }
+
     public IdKaart(String isikukood) {
         this.isikukood = isikukood;
     }

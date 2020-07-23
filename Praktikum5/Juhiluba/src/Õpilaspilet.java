@@ -3,6 +3,13 @@ import java.time.LocalDate;
 public class Õpilaspilet implements Dokument {
     private int sünniaasta;
 
+    @Override
+    public String toString() {
+        return "Õpilaspilet{" +
+                "sünniaasta=" + sünniaasta +
+                '}';
+    }
+
     public Õpilaspilet(int sünniaasta) {
         this.sünniaasta = sünniaasta;
     }

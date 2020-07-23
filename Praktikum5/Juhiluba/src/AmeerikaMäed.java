@@ -1,4 +1,16 @@
+import java.util.*;
+
 public class AmeerikaMäed {
+    public List<Dokument> ebasobivadDokumendid(Dokument[] docid) {
+       ArrayList<Dokument> tagastus = new ArrayList<Dokument>();
+       for (int i=0; i < docid.length; i++) {
+           if (!docid[i].onVähemalt12Aastane()) {
+               tagastus.add(docid[i]);
+           }
+       }
+        return tagastus;
+    }
+
     public boolean vanusedSobivad(Dokument[] dokumendid) {
         for (Dokument dokument : dokumendid) {
             if (!dokument.onVähemalt12Aastane())
